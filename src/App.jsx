@@ -15,7 +15,6 @@ export default function App() {
       <Hero/>
       <Intro/> 
       <PrizeSection/>
-      <Steps/>
       <Choose/>
       <Tracks/>
       <Steps/>
