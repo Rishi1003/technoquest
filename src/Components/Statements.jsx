@@ -8,7 +8,7 @@ import { useState } from "react"
 export default function Statements(){
     const [show, setShow] = useState(1);
     return<>
-        <div className="relative w-[95vw] bg-cover" style={{backgroundImage:`url('./src/assets/bg.png')`}}>
+        <div className="relative w-[95vw] bg-cover plus-poster">
             <img src={bottomleft} alt="border" className="absolute bottom-4 left-4"/>
             <img src={bottomright} alt="border" className="absolute bottom-4 right-4"/>
             <img src={topright} alt="border" className="absolute top-4 right-4"/>

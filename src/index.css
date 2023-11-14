@@ -26,3 +26,11 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar-button {
     display: none;
   }
+
+  .poster{
+    background: url('./src/assets/poster.213e93c9.jpg');
+    background-size: cover;
+  }
+  .plus-poster{
+    background:url('./src/assets/bg.png');
+  }
