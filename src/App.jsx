@@ -1,5 +1,5 @@
 import Hero from "./Components/Hero"
-import Navbar from "./components/Navbar.jsx"
+import Navbar from "./Components/Navbar.jsx"
 import Intro from './Components/Intro.jsx'
 import PrizeSection from "./Components/PrizeSection.jsx"
 import Steps from "./Components/Steps.jsx"
