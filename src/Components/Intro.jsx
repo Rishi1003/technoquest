@@ -12,7 +12,7 @@ export default function Intro(){
             <img src={topleft} alt="border" className="absolute top-4 left-4"/>
             <img src={dots} alt="border" className="absolute top-20 left-4"/>
 
-            <div className="flex h-full w-full px-20 flex-col md:flex-row gap-4 py-16 lg:py-28 lg:px-24">
+            <div className="flex h-full w-full px-20 flex-col md:flex-row gap-10 md:gap-4 py-16 lg:py-28 lg:px-24">
                 <div className="w-full md:w-1/2">
                     <h1 className="text-xl mb-3 lg:text-2xl  font-bold text-white"><span className="text-green-400">JOIN US,</span> BE THE CHANGE</h1>
                     <p className="text-white lg:text-xl">

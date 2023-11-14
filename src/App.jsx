@@ -5,6 +5,7 @@ import PrizeSection from "./Components/PrizeSection"
 import Steps from "./Components/Steps"
 import Tracks from "./Components/Tracks"
 import Choose from "./Components/Choose"
+import Statements from "./Components/Statements"
 
 
 export default function App() {
@@ -17,6 +18,8 @@ export default function App() {
       <Steps/>
       <Choose/>
       <Tracks/>
+      <Steps/>
+      <Statements/>
     </main>
   )
 }
