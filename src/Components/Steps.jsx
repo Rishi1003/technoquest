@@ -14,7 +14,7 @@ export default function Steps(){
 
             <div className="flex h-full w-full px-11 flex-col justify-center md:flex-row gap-4 py-16 lg:py-20 lg:px-24">
                 <div className="w-full md:w-4/5">
-                    <h1 className="text-4xl mb-3 lg:text-7xl text-center font-bold text-white">YOUR HACKATHON JOURNEY</h1>
+                    <h1 className="text-4xl mb-3 lg:text-7xl text-center font-bold text-white">YOUR HACKATHON JOURNEY AS A BUILDER</h1>
                     <div className="flex flex-col mt-10 gap-8">
                         <div>
                             <h1 className="text-white text-2xl"><span className="text-green-400"># </span>Problem Selection</h1>

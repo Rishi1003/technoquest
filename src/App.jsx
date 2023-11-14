@@ -4,6 +4,7 @@ import Intro from './Components/Intro'
 import Steps from "./Components/Steps"
 import Tracks from "./Components/Tracks"
 import Choose from "./Components/Choose"
+import Statements from "./Components/Statements"
 
 export default function App() {
   return (
@@ -11,9 +12,10 @@ export default function App() {
       <Navbar/>
       <Hero/>
       <Intro/> 
-      <Steps/>
       <Choose/>
       <Tracks/>
+      <Steps/>
+      <Statements/>
     </main>
   )
 }
