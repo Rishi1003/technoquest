@@ -28,9 +28,9 @@ body::-webkit-scrollbar {
   }
 
   .poster{
-    background: url('./src/assets/poster.213e93c9.jpg');
+    background: url('/poster.jpg');
     background-size: cover;
   }
   .plus-poster{
-    background:url('./src/assets/bg.png');
+    background-image:url('/bg.png');
   }
