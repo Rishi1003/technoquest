@@ -6,6 +6,7 @@ import Steps from "./Components/Steps.jsx"
 import Tracks from "./Components/Tracks.jsx"
 import Choose from "./Components/Choose.jsx"
 import Statements from "./Components/Statements.jsx"
+import Events from "./Components/Events.jsx"
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <Hero/>
       <Intro/> 
       <PrizeSection/>
+      <Events/>
       <Choose/>
       <Tracks/>
       <Steps/>
