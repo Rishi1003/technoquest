@@ -50,8 +50,8 @@ export default function Events() {
         <div className="flex py-20 w-full flex-col md:flex-row justify-around gap-10 md:gap-4  mt-5  lg:px-12 fadeIn" ref={sectionRef}>
           <h1 className="text-white text-center text-6xl md:hidden">Events</h1>
           <div className="flex md:flex-col gap-8 self-center">
-            <button onClick={()=>setDay(1)} className="text-white text-4xl md:text-6xl max-w-max bg-green-400 px-3 py-2 rounded-md">Day 1</button>
-            <button onClick={()=>setDay(2)} className="text-white text-4xl md:text-6xl md:ml-20 bg-green-400 px-3 py-2 rounded-md">Day 2</button>
+            <div className={dayButton==1?"border-2 max-w-max rounded-lg p-1 border-green-400":""}><button onClick={()=>setDay(1)} className="text-white text-4xl md:text-6xl max-w-max bg-green-400 px-3 py-2 rounded-md">Day 1</button></div>
+            <div className={dayButton==2?"border-2 max-w-max rounded-lg p-1 border-green-400  ml-10":""}><button onClick={()=>setDay(2)} className={dayButton==2?"text-white text-4xl md:text-6xl max-w-max bg-green-400 px-3 py-2 rounded-md":"text-white text-4xl md:text-6xl max-w-max bg-green-400 px-3 py-2 rounded-md ml-10"}>Day 2</button></div>
           </div>
           
             <div className={dayButton==1?"text-white text-3xl m-auto md:m-0 md:text-6xl max-w-[60%] md:max-w-[40%] self-center":"hidden"}>
