@@ -3,7 +3,42 @@ import bottomright from "../assets/rightBottom.f55e2fe4.png"
 import topright from "../assets/rightTop.1e802db8.png"
 import topleft from "../assets/leftTop.c7fe8e9a.png"
 import dots from "../assets/dots.png"
+import { gsap } from "gsap";
+import { useIntersection } from "react-use";
+import { useRef } from "react";
+
+
 export default function Intro(){
+
+    const sectionRef = useRef(null);
+
+    const intersection = useIntersection(sectionRef, {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.4,
+      });
+    
+      const fadeIn = (element) => {
+        gsap.to(element, 1, {
+          opacity: 1,
+          y: -40,
+          ease: "power1.out",
+          stagger: {
+            amount: 0.3,
+          },
+        });
+      };
+    
+      const fadeOut = (element) => {
+        gsap.to(element, 1, {
+          opacity: 0,
+          y: -20,
+          ease: "power1.out",
+        });
+      };
+    
+      intersection && !intersection.isIntersecting ? fadeOut(sectionRef.current) : fadeIn(sectionRef.current);
+
     return<>
         <div className="relative plus-poster w-[95vw] h-max md:h-screen bg-cover">
             <img src={bottomleft} alt="border" className="absolute bottom-4 left-4"/>
@@ -12,7 +47,7 @@ export default function Intro(){
             <img src={topleft} alt="border" className="absolute top-4 left-4"/>
             <img src={dots} alt="border" className="absolute top-20 left-4"/>
 
-            <div className="flex h-full w-full px-10 md:px-16 flex-col md:flex-row gap-12 py-16 md:py-10 lg:py-20 lg:px-24">
+            <div className="flex h-full w-full px-10 md:px-16 flex-col md:flex-row gap-12 py-20 mt-5 md:py-10 lg:py-20 lg:px-24"  ref={sectionRef}>
                 
                     <div className="w-full md:w-1/2">
                         <h1 className="text-3xl mb-3 lg:text-4xl  font-bold text-green-400">Explore the Fest and Find Opportunities</h1>

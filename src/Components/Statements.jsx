@@ -5,7 +5,38 @@ import topleft from "../assets/leftTop.c7fe8e9a.png"
 import dots from "../assets/dots.png"
 import { AiOutlineDown, AiOutlineRight } from "react-icons/ai"
 import { useState } from "react"
+import { gsap } from "gsap";
+import { useIntersection } from "react-use";
+import { useRef } from "react";
 export default function Statements(){
+    const sectionRef = useRef(null);
+
+    const intersection = useIntersection(sectionRef, {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.4,
+    });
+  
+    const fadeIn = (element) => {
+      gsap.to(element, 1, {
+        opacity: 1,
+        y: -40,
+        ease: "power1.out",
+        stagger: {
+          amount: 0.3,
+        },
+      });
+    };
+  
+    const fadeOut = (element) => {
+      gsap.to(element, 1, {
+        opacity: 0,
+        y: -20,
+        ease: "power1.out",
+      });
+    };
+  
+    intersection && !intersection.isIntersecting ? fadeOut(sectionRef.current) : fadeIn(sectionRef.current);
     const [show, setShow] = useState(1);
     return<>
         <div className="relative w-[95vw] bg-cover plus-poster">
@@ -15,7 +46,7 @@ export default function Statements(){
             <img src={topleft} alt="border" className="absolute top-4 left-4"/>
             <img src={dots} alt="border" className="absolute top-20 left-4"/>
 
-            <div className="flex w-full px-10 flex-col gap-5 pb-10 pt-8 lg:pb-20 lg:pt-16">
+            <div className="flex w-full px-10 flex-col gap-5 pb-10 pt-12 mt-10 lg:pb-20 lg:pt-16" ref={sectionRef} >
                 <h1 className="text-white select-none text-center mb-8 text-3xl">Choose One Problem Statement</h1>
                 <div onClick={()=>{show == 1?setShow(0):setShow(1)}} className="px-2 select-none border-x-2 border-green-400"><div className="text-white flex items-center justify-between px-4 bg-green-400 py-1 text-xl">1.Smart Cities and Infrastructure {show==1?<AiOutlineDown/>:<AiOutlineRight/>} </div></div>
                     <div className={show==1?"":"hidden"}><div className={"flex md:px-10 flex-col gap-6 text-white"}> 

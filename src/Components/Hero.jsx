@@ -24,7 +24,7 @@ const Hero = () => {
             </video>
             <div className="absolute inset-0 flex flex-col justify-center items-center z-30 p-6 text-white text-center">
                 <h2 className="text-xl md:text-3xl lg:text-5xl font-bold p-2">AIEMS</h2>
-                <h1 className='text-2xl md:text-7xl lg:text-9xl font-bold p-2'><span className='text-green-400'>TECHNO</span>QUEST</h1>
+                <h1 className='text-3xl md:text-7xl lg:text-8xl font-bold p-2'><span className='text-green-400'>TECHNO</span>QUEST</h1>
                 <p className='text-xs md:text-lg lg:text-xl xl:text-2xl flex flex-wrap justify-center p-2 tracking-wide w-full font-bold'>D I S C O V E R &nbsp;&nbsp;T H E &nbsp;&nbsp;E N G I N E E R&nbsp;&nbsp; I N&nbsp;&nbsp; Y O U</p>
                 <p className='text-sm md:text-base lg:text-lg xl:text-xl text-gray-400 p-2 md:max-w-[700px] lg:max-w-[900px]'>"Experience innovation live at AIEMS in the Techno Quest Hackathon—an offline challenge where creativity thrives and game-changing projects unfold!"</p>
                 <p className='text-base md:text-lg lg:text-xl xl:text-2xl text-green-400 font-bold p-2'>02-12-2023 -- 03-12-2023</p>
