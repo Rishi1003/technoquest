@@ -49,23 +49,23 @@ export default function Intro() {
         <div className="flex h-full w-full px-20 flex-col md:flex-row gap-10 md:gap-4 py-20 mt-5 lg:py-28 lg:px-24 fadeIn" ref={sectionRef}>
           <div className="w-full md:w-1/2 one">
             <h1 className="text-xl mb-3 lg:text-2xl font-bold text-white">
-              <span className="text-green-400">JOIN US,</span> BE THE CHANGE
+              <span className="text-green-400">JOIN US,</span> IGNITE THE CHANGE
             </h1>
             <p className="text-white lg:text-xl">
               Don't miss the chance to be part of Ignite Change. Let's turn ideas into action and code into solutions. Together, we can harness the power of technology to make a lasting impact.
               <br />
               <div className="mt-2">
-                <button className="text-green-400 mr-1 hover:scale-95">Register now</button>and be a catalyst for change!
+                <button className="text-green-400 mr-1 hover:scale-95"><a href="#tracks">Register now</a></button>and be a catalyst for change!
               </div>
             </p>
           </div>
           <div className="w-full md:w-1/2 self-end two">
-            <h1 className="text-xl lg:text-2xl mb-3 font-bold uppercase text-white">Prize worth <span className="text-green-400">₹30,000</span> up for grabs</h1>
+            <h1 className="text-xl lg:text-2xl mb-3 font-bold uppercase text-white">Win Big!!! <span className="text-green-400">₹30,000</span> Prize Awaits You</h1>
             <p className="text-white lg:text-xl">
-              Don't miss the chance to be part of Ignite Change. Let's turn ideas into action and code into solutions. Together, we can harness the power of technology to make a lasting impact.
+            Builders, aim high! The winner takes home ₹15,000, and the runner-up secures ₹10,000. Explorers, there's a chance for you too – join in and stand a chance to claim ₹5,000. Your role matters, your prize awaits.
               <br />
-              <div className="mt-2">
-                <button className="text-green-400 mr-1 hover:scale-95">Register now</button>and be a catalyst for change!
+              <div className="mt-2 capitalize">
+                <button className="text-green-400 mr-1 hover:scale-95"><a href="#tracks">Register now</a></button>Your Chance to win big awaits!
               </div>
             </p>
           </div>

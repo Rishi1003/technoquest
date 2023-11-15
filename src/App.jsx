@@ -11,16 +11,18 @@ import Events from "./Components/Events.jsx"
 
 export default function App() {
   return (
-    <main className="bg-black overflow-x-hidden flex flex-col items-center">
+    
+    <main className="bg-black overflow-x-hidden flex gap-2 flex-col items-center">
       <Navbar/>
       <Hero/>
       <Intro/> 
       <PrizeSection/>
       <Events/>
-      <Choose/>
+      <div id="tracks"><Choose/></div>
       <Tracks/>
       <Steps/>
       <Statements/>
     </main>
+    
   )
 }

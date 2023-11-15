@@ -46,7 +46,7 @@ const PrizeSection = () => {
   intersection && !intersection.isIntersecting ? fadeOut(TopRef.current) : fadeIn(TopRef.current);
   intersection && !intersection.isIntersecting ? fadeOut(BottomRef.current) : fadeIn(BottomRef.current);
     return (
-        <div className="w-full min-h-screen bg-black p-2 md:flex text-white">
+        <div className="w-full min-h-screen mb-8 bg-black p-2 md:flex text-white">
             {/* Left Section */}
             <div className="relative min-h-screen md:w-[40%] p-5">
                 <img src={c1} className="absolute left-0 top-0 md:px-14 md:pr-5 p-2" alt="c1" />
@@ -64,9 +64,9 @@ const PrizeSection = () => {
                         <BsCurrencyRupee />30K
                     </h1>
                     <div>
-                        <p className="font-bold text-xl md:text-2xl lg:text-3xl px-5 py-2">GRAND PRIZE</p>
+                        <p className="font-bold text-xl md:text-2xl lg:text-3xl px-5 py-2">TOTAL PRIZE</p>
                         <p className="text-sm md:text-xl px-5 py-2">
-                            AWS is offering $10k in credits to the Grand Prize winner via their Activate program (see Developer Resources for more details). Additionally, the Solana Foundation is providing the USDC and 3 passes to the 2024 Solana Breakpoint Conference, where you may present your project to the Solana community.
+                        Builders, aim high! The winner takes home ₹15,000, and the runner-up secures ₹10,000. Explorers, there's a chance for you too – join in and stand a chance to claim ₹5,000. Your role matters, your prize awaits.
                         </p>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ const PrizeSection = () => {
                             <h1 className="flex justify-center text-green-400 items-center text-3xl md:text-5xl lg:text-7xl font-bold">
                                 <BsCurrencyRupee />15K
                             </h1>
-                            <p className="text-sm md:text-xl lg:text-2xl p-1">PUBLIC GOODS AWARD</p>
+                            <p className="text-sm md:text-xl lg:text-2xl p-1">Builders AWARD</p>
                         </div>
                     </div>
                     <img src={pga} className="w-full p-5" alt="pga" />
@@ -97,17 +97,17 @@ const PrizeSection = () => {
                             <h1 className="flex justify-center text-green-400 items-center text-3xl md:text-5xl lg:text-7xl font-bold">
                                 <BsCurrencyRupee />10K
                             </h1>
-                            <p className="text-sm md:text-xl lg:text-2xl p-1">PUBLIC GOODS AWARD</p>
+                            <p className="text-sm md:text-xl lg:text-2xl p-1">Builders AWARD</p>
                         </div>
                     </div>
                     <img src={pga} className="w-full p-5" alt="pga" />
                     <div className="flex justify-around w-full items-center gap-10">
-                        <h1 className="text-3xl md:text-4xl lg:text-6xl">Third Prize</h1>
+                        <h1 className="text-xl md:text-2xl lg:text-4xl">WIN THROUGH STALLS</h1>
                         <div className="flex flex-col justify-center items-center">
                             <h1 className="flex justify-center text-green-400 items-center text-3xl md:text-5xl lg:text-7xl font-bold">
                                 <BsCurrencyRupee />5K
                             </h1>
-                            <p className="text-sm md:text-xl lg:text-2xl p-1">PUBLIC GOODS AWARD</p>
+                            <p className="text-sm md:text-xl lg:text-2xl p-1">Explorers REWARD</p>
                         </div>
                     </div>
                 </div>
