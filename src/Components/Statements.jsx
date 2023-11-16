@@ -23,7 +23,7 @@ export default function Statements(){
         y: -40,
         ease: "power1.out",
         stagger: {
-          amount: 0.3,
+          amount: 0.1,
         },
       });
     };

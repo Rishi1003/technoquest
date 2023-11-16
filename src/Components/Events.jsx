@@ -14,7 +14,7 @@ export default function Events() {
   const intersection = useIntersection(sectionRef, {
     root: null,
     rootMargin: "0px",
-    threshold: 0.4,
+    threshold: 0.1,
   });
 
   const fadeIn = (element) => {
@@ -40,7 +40,7 @@ export default function Events() {
 
   return (
     <>
-      <div className="relative w-[95vw] plus-poster bg-cover">
+      <div className="relative w-[95vw] plus-poster bg-cover" id="events">
         <img src={bottomleft} alt="border" className="absolute bottom-4 left-4" />
         <img src={bottomright} alt="border" className="absolute bottom-4 right-4" />
         <img src={topright} alt="border" className="absolute top-4 right-4" />
