@@ -5,23 +5,23 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 export const nav = [
     {
         id: 1,
-        name: "Home",
-        href: "#"
+        name: "HOME",
+        href: "#hero"
     },
     {
         id: 2,
-        name: "Tracks",
-        href: "#"
+        name: "PRIZES",
+        href: "#prizes"
     },
     {
         id: 3,
-        name: "Topics",
-        href: "#"
+        name: "EVENTS",
+        href: "#events"
     },
     {
         id: 4,
-        name: "Prizes",
-        href: "#"
+        name: "TRACKS",
+        href: "#tracks"
     },
 ]
 
@@ -30,6 +30,11 @@ const Navbar = () => {
 
     const handleNav = () => {
         setNav(!navv);
+    }
+
+    const handleMenuItemClick = () => {
+        // Close the sidebar when a menu item is clicked
+        setNav(true);
     }
 
     useEffect(() => {
@@ -66,7 +71,7 @@ const Navbar = () => {
                 <ul className="p-4 uppercase">
                     {nav.map((item) => {
                         const { id, name, href } = item
-                        return <li className="p-4 border-b border-gray-600 md:text-2xl" key={id}><a href={href}>{name}</a></li>
+                        return <li className="p-4 border-b border-gray-600 md:text-2xl" onClick={handleMenuItemClick} key={id}><a href={href}>{name}</a></li>
                     })}
                 </ul>
             </div>

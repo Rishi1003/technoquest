@@ -21,7 +21,7 @@ const PrizeSection = () => {
   const intersection = useIntersection(TopRef,BottomRef, {
     root: null,
     rootMargin: "0px",
-    threshold: 0.4,
+    threshold: 0.1,
   });
 
   const fadeIn = (element) => {
@@ -46,7 +46,7 @@ const PrizeSection = () => {
   intersection && !intersection.isIntersecting ? fadeOut(TopRef.current) : fadeIn(TopRef.current);
   intersection && !intersection.isIntersecting ? fadeOut(BottomRef.current) : fadeIn(BottomRef.current);
     return (
-        <div className="w-full min-h-screen mb-8 bg-black p-2 md:flex text-white">
+        <div className="w-full min-h-screen mb-8 bg-black p-2 md:flex text-white" id='prizes'>
             {/* Left Section */}
             <div className="relative min-h-screen md:w-[40%] p-5">
                 <img src={c1} className="absolute left-0 top-0 md:px-14 md:pr-5 p-2" alt="c1" />
