@@ -32,7 +32,7 @@ const Hero = () => {
                 <p className='text-sm md:text-base lg:text-lg xl:text-xl text-gray-400 p-2 md:max-w-[700px] lg:max-w-[900px]'>"Experience innovation live at AIEMS in the Techno Quest Hackathon—an offline challenge where creativity thrives and game-changing projects unfold!"</p>
                 <p className='text-base md:text-lg lg:text-xl xl:text-2xl text-green-400 font-bold p-2'>02-12-2023 -- 03-12-2023</p>
                 <p className='text-base md:text-lg lg:text-xl xl:text-2xl text-green-400 font-bold p-2'>venue: Amruta Institute of Engineering and Management Sciences,Bidadi</p>
-                <button className='bg-green-400 text-black p-3 md:px-6 md:py-3 lg:px-8 lg:py-4 xl:px-10 xl:py-5 text-sm md:text-base lg:text-lg xl:text-xl font-bold m-2 rounded-br-3xl rounded-tl-3xl hover:bg-green-600'><a href="#tracks">Register now</a></button>
+                <a href="#tracks"><button className='bg-green-400 text-black p-3 md:px-6 md:py-3 lg:px-8 lg:py-4 xl:px-10 xl:py-5 text-sm md:text-base lg:text-lg xl:text-xl font-bold m-2 rounded-br-3xl rounded-tl-3xl hover:bg-green-600'>Register now</button></a>
             </div>
         </div>
     );
