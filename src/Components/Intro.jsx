@@ -13,7 +13,7 @@ export default function Intro() {
   const intersection = useIntersection(sectionRef, {
     root: null,
     rootMargin: "0px",
-    threshold: 0.4,
+    threshold: 0.1,
   });
 
   const fadeIn = (element) => {

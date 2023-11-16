@@ -34,3 +34,49 @@ body::-webkit-scrollbar {
   .plus-poster{
     background-image:url('/bg.png');
   }
+
+
+
+  @keyframes glitch {
+    0%, 100% {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      transform: translateX(0);
+    }
+    25% {
+      clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+      transform: translateX(-2px); /* Reduce the x-axis movement */
+    }
+    50% {
+      clip-path: polygon(0 0, 100% 0, 60% 100%, 40% 100%);
+      transform: translateX(2px); /* Reduce the x-axis movement */
+    }
+    75% {
+      clip-path: polygon(0 0, 100% 0, 40% 100%, 60% 100%);
+      transform: translateX(-2px); /* Reduce the x-axis movement */
+    }
+    100% {
+      clip-path: polygon(0 0, 100% 0, 20% 100%, 80% 100%);
+      transform: translateX(2px); /* Reduce the x-axis movement */
+    }
+  }
+  
+  .glitch {
+    position: relative;
+    display: inline-block;
+    color: #00ff00; /* Green-400 color */
+  }
+  
+  .glitch::before,
+  .glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: glitch 3s infinite linear alternate-reverse;
+  }
+  
+  .glitch::before {
+    color: #ffffff; /* White color */
+    z-index: -1;
+  }
+  
