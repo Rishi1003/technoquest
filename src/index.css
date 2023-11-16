@@ -63,7 +63,7 @@ body::-webkit-scrollbar {
   .glitch {
     position: relative;
     display: inline-block;
-    color: #00ff00; /* Green-400 color */
+    color: rgb(74 222 128); /* Green-400 color */
   }
   
   .glitch::before,
