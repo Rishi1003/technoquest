@@ -52,36 +52,43 @@ export default function Statements(){
                     <div className={show==1?"":"hidden"}><div className={"flex md:px-10 flex-col gap-6 text-white"}> 
                         <p>a. Design a prototype of a smart traffic light system that optimizes traffic flow at a busy intersection.</p>
                         <p>b. Develop a low-cost sensor network to monitor air quality in a specific urban area and provide real-time data to residents.</p>
+                        <a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdCXf65yOX__qiJwoFquu_6dzNHCKv8nmSOsnH8muuDokONMA/viewform?usp=sf_link"><button className="text-white bg-green-400 px-2 py-1">Register Now</button></a>
                     </div></div>
                 <div onClick={()=>{show == 2?setShow(0):setShow(2)}} className="px-2 select-none border-x-2 border-green-400"><div className="text-white flex items-center justify-between px-4 bg-green-400 py-1 text-xl">2. Healthcare and Biomedical Engineering {show==2?<AiOutlineDown/>:<AiOutlineRight/>} </div></div>
                     <div className={show==2?"":"hidden"}><div className={"flex md:px-10 flex-col gap-6 text-white"}> 
                         <p>a. Create a wearable health monitoring device that tracks heart rate, body temperature, and activity levels for remote patient monitoring.</p>
                         <p>b. Design a smartphone application that uses image recognition to identify and classify common skin conditions.</p>
+                        <a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdCXf65yOX__qiJwoFquu_6dzNHCKv8nmSOsnH8muuDokONMA/viewform?usp=sf_link"><button className="text-white bg-green-400 px-2 py-1">Register Now</button></a>
                     </div></div>
                 <div onClick={()=>{show == 3?setShow(0):setShow(3)}} className="px-2 select-none border-x-2 border-green-400"><div className="text-white flex items-center justify-between px-4 bg-green-400 py-1 text-xl">3. Environmental Sustainability {show==3?<AiOutlineDown/>:<AiOutlineRight/>} </div></div>
                     <div className={show==3?"":"hidden"}><div className={"flex md:px-10 flex-col gap-6 text-white"}> 
                         <p>a. Develop a mobile app that educates users about sustainable practices and rewards them for eco-friendly behaviours.</p>
                         <p>b. Design a small-scale composting system for urban households to reduce organic waste.</p>
+                        <a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdCXf65yOX__qiJwoFquu_6dzNHCKv8nmSOsnH8muuDokONMA/viewform?usp=sf_link"><button className="text-white bg-green-400 px-2 py-1">Register Now</button></a>
                     </div></div>
                 <div onClick={()=>{show == 4?setShow(0):setShow(4)}} className="px-2 select-none border-x-2 border-green-400"><div className="text-white flex items-center justify-between px-4 bg-green-400 py-1 text-xl">4. Transportation and Mobility {show==4?<AiOutlineDown/>:<AiOutlineRight/>} </div></div>
                     <div className={show==4?"":"hidden"}><div className={"flex md:px-10 flex-col gap-6 text-white"}> 
                         <p>a. Create a mobile app that provides real-time information on available parking spaces in a busy city centre.</p>
                         <p>b. fix the issue of reaching your destination from public transit. Use affordable tools and current tech to make it easier for city folks to get smoothly from transit stops to their final stops, making city travel hassle-free.</p>
+                        <a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdCXf65yOX__qiJwoFquu_6dzNHCKv8nmSOsnH8muuDokONMA/viewform?usp=sf_link"><button className="text-white bg-green-400 px-2 py-1">Register Now</button></a>
                     </div></div>
                 <div onClick={()=>{show == 5?setShow(0):setShow(5)}} className="px-2 select-none border-x-2 border-green-400"><div className="text-white flex items-center justify-between px-4 bg-green-400 py-1 text-xl">5. AI and Machine Learning Applications {show==5?<AiOutlineDown/>:<AiOutlineRight/>} </div></div>
                     <div className={show==5?"":"hidden"}><div className={"flex md:px-10 flex-col gap-6 text-white"}> 
                         <p>a. Create a real-time sentiment analysis tool for analysing social media data related to a specific topic or event.</p>
                         <p>b. Creating a real-time sentiment analysis tool for social media data involves leveraging natural language processing (NLP) techniques to automatically determine the sentiment expressed in a given piece of text.</p>
+                        <a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdCXf65yOX__qiJwoFquu_6dzNHCKv8nmSOsnH8muuDokONMA/viewform?usp=sf_link"><button className="text-white bg-green-400 px-2 py-1">Register Now</button></a>
                     </div></div>
                 <div onClick={()=>{show == 6?setShow(0):setShow(6)}} className="px-2 select-none border-x-2 border-green-400"><div className="text-white flex items-center justify-between px-4 bg-green-400 py-1 text-xl">6. Robotics and automation {show==6?<AiOutlineDown/>:<AiOutlineRight/>} </div></div>
                     <div className={show==6?"":"hidden"}><div className={"flex md:px-10 flex-col gap-6 text-white"}> 
                         <p>a. Design and construct a maze-solving robot capable of autonomously navigating through a predefined maze, starting from a designated entrance and reaching the exit point in the shortest possible time. The robot should make intelligent decisions to find the optimal path through the maze.</p>
                         <p>b. Develop an autonomous object-detection arm system with the capability to identify and remove out-of-shape objects from a designated area.</p>
+                        <a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdCXf65yOX__qiJwoFquu_6dzNHCKv8nmSOsnH8muuDokONMA/viewform?usp=sf_link"><button className="text-white bg-green-400 px-2 py-1">Register Now</button></a>
                     </div></div>
                 <div onClick={()=>{show == 7?setShow(0):setShow(7)}} className="px-2 select-none border-x-2 border-green-400"><div className="text-white flex items-center justify-between px-4 bg-green-400 py-1 text-xl">7. Aerospace and Aviation {show==7?<AiOutlineDown/>:<AiOutlineRight/>} </div></div>
                     <div className={show==7?"":"hidden"}><div className={"flex md:px-10 flex-col gap-6 text-white"}> 
                         <p>a. Conduct experiments using weather balloons to collect data on atmospheric conditions, such as temperature, humidity, and pressure, at various altitudes. Analyse the data to gain insights into atmospheric behaviour.</p>
                         <p>b. Design a communication system for a small-scale satellite that enables reliable data transmission to and from ground stations. Consider factors like data rates, signal strength, and power consumption.</p>
+                        <a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdCXf65yOX__qiJwoFquu_6dzNHCKv8nmSOsnH8muuDokONMA/viewform?usp=sf_link"><button className="text-white bg-green-400 px-2 py-1">Register Now</button></a>
                     </div></div>
             </div>
 
