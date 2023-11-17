@@ -66,7 +66,7 @@ export default function Statements(){
                 <div onClick={()=>{show == 4?setShow(0):setShow(4)}} className="px-2 select-none border-x-2 border-green-400"><div className="text-white flex items-center justify-between px-4 bg-green-400 py-1 text-xl">4. Transportation and Mobility {show==4?<AiOutlineDown/>:<AiOutlineRight/>} </div></div>
                     <div className={show==4?"":"hidden"}><div className={"flex md:px-10 flex-col gap-6 text-white"}> 
                         <p>a. Create a mobile app that provides real-time information on available parking spaces in a busy city centre.</p>
-                        <p>fix the issue of reaching your destination from public transit. Use affordable tools and current tech to make it easier for city folks to get smoothly from transit stops to their final stops, making city travel hassle-free.</p>
+                        <p>b. fix the issue of reaching your destination from public transit. Use affordable tools and current tech to make it easier for city folks to get smoothly from transit stops to their final stops, making city travel hassle-free.</p>
                     </div></div>
                 <div onClick={()=>{show == 5?setShow(0):setShow(5)}} className="px-2 select-none border-x-2 border-green-400"><div className="text-white flex items-center justify-between px-4 bg-green-400 py-1 text-xl">5. AI and Machine Learning Applications {show==5?<AiOutlineDown/>:<AiOutlineRight/>} </div></div>
                     <div className={show==5?"":"hidden"}><div className={"flex md:px-10 flex-col gap-6 text-white"}> 
