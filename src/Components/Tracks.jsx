@@ -60,7 +60,7 @@ export default function Intro(){
                         <h1 className="text-3xl mb-3 lg:text-4xl  font-bold text-green-400">Build and Showcase Your Ideas</h1>
                         <p className="text-white lg:text-xl">Ready to bring ideas to life? Join the Builder track! Pick a challenge from our list, dive into hands-on creation, code up prototypes, and show how your solutions can make a real impact. Let's turn concepts into reality together!
                         <br/>
-                        <div className="mt-2"><a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdCXf65yOX__qiJwoFquu_6dzNHCKv8nmSOsnH8muuDokONMA/viewform?usp=sf_link" ><button className="text-white bg-green-400 px-2 py-1 mr-1 hover:scale-95">Register</button></a> your team as builders</div>
+                        <div className="mt-2"><a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdCXf65yOX__qiJwoFquu_6dzNHCKv8nmSOsnH8muuDokONMA/viewform?usp=sf_link" ><button className="text-white bg-green-400 px-2 py-1 mr-1 hover:scale-95">Register</button></a> your team as builders [Team Size: min 2 - max 4]</div>
                         </p>
                     </div>
                 
