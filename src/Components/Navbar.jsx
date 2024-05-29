@@ -5,23 +5,18 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 export const nav = [
     {
         id: 1,
-        name: "HOME",
-        href: "#hero"
+        name: "Register",
+        href: "https://yuvamytr.com/version-test/bootcamp"
     },
     {
         id: 2,
-        name: "PRIZES",
-        href: "#prizes"
+        name: "What you'll learn",
+        href: "#program-details"
     },
     {
         id: 3,
-        name: "EVENTS",
-        href: "#events"
-    },
-    {
-        id: 4,
-        name: "TRACKS",
-        href: "#tracks"
+        name: "outcome",
+        href: "#outcome"
     },
 ]
 
@@ -67,7 +62,7 @@ const Navbar = () => {
                 {!navv ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             </div>
             <div className={!navv ? "fixed left-0 top-0 w-[70%] h-screen border-r border-r-gray-900 bg-[#000000] z-50 ease-in-out duration-500" : "fixed left-[-100%]"}>
-                <h1 className="w-full text-3xl md:text-5xl font-bold text-white p-2 mt-5 px-8">AIEMS</h1>
+                <h1 className="w-full text-3xl md:text-5xl font-bold text-white p-2 mt-5 px-8">Yuvamytr</h1>
                 <ul className="p-4 uppercase">
                     {nav.map((item) => {
                         const { id, name, href } = item

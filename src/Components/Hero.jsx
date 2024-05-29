@@ -39,7 +39,7 @@ const Hero = () => {
                     <p className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-green-400 font-bold'>₹599</p>
                 </div>
 
-                <a href="#tracks"><button className='bg-green-400 text-black p-3 md:px-6 md:py-3 lg:px-8 lg:py-4 xl:px-10 xl:py-5 text-sm md:text-base lg:text-lg xl:text-xl font-bold m-2 rounded-br-3xl rounded-tl-3xl hover:bg-green-600'>Register now</button></a>
+                <a href="https://yuvamytr.com/version-test/bootcamp"><button className='bg-green-400 text-black p-3 md:px-6 md:py-3 lg:px-8 lg:py-4 xl:px-10 xl:py-5 text-sm md:text-base lg:text-lg xl:text-xl font-bold m-2 rounded-br-3xl rounded-tl-3xl hover:bg-green-600'>Register now</button></a>
             </div>
         </div>
     );

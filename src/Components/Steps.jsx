@@ -36,7 +36,7 @@ export default function Steps(){
   
     intersection && !intersection.isIntersecting ? fadeOut(sectionRef.current) : fadeIn(sectionRef.current);
     return<>
-        <div className="poster relative w-[95vw] h-max bg-opacity-10 bg-cover">
+    <div id="outcome" className="poster relative w-[95vw] h-max bg-opacity-10 bg-cover">
     <img src={bottomleft} alt="border" className="absolute bottom-4 left-4"/>
     <img src={bottomright} alt="border" className="absolute bottom-4 right-4"/>
     <img src={topright} alt="border" className="absolute top-4 right-4"/>
