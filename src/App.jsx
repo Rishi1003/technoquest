@@ -7,6 +7,7 @@ import Tracks from "./Components/Tracks.jsx"
 import Choose from "./Components/Choose.jsx"
 import Statements from "./Components/Statements.jsx"
 import Events from "./Components/Events.jsx"
+import Footer from "./Components/Footer.jsx"
 
 
 export default function App() {
@@ -15,13 +16,11 @@ export default function App() {
     <main className="bg-black overflow-x-hidden flex gap-2 flex-col items-center">
       <Navbar/>
       <Hero/>
-      {/* <Intro/>  */}
-      {/* <PrizeSection/> */}
       <Events/>
       <Steps/>
-      {/* <div id="tracks"><Choose/></div> */}
       <Tracks/>
       <Statements/>
+      <Footer/>
     </main>
     
   )
