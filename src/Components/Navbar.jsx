@@ -6,7 +6,7 @@ export const nav = [
     {
         id: 1,
         name: "Register",
-        href: "#hero"
+        href: "https://yuvamytr.com/version-test/bootcamp"
     },
     {
         id: 2,
