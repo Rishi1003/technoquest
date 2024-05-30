@@ -369,12 +369,12 @@ export default function Statements(){
                 {bootcampSchedule.bootcamp.days.map((item) => (
                     <div key={item.day}>
                         <div onClick={() => toggleDetails(item.day)} className="px-2 select-none border-x-2 border-green-400 cursor-pointer">
-                            <div className="text-white flex items-center justify-between px-4 bg-green-400 py-1 text-xl">
+                            <div className="text-black mb-5 font-semibold flex items-center justify-between px-4 bg-green-400 py-1 text-xl">
                                 Day: {item.day} {item.title} {showDetails[item.day] ? <AiOutlineDown /> : <AiOutlineRight />}
                             </div>
                         </div>
                         {showDetails[item.day] && (
-                            <div className="flex md:px-10 flex-col gap-6 text-white">
+                            <div className="flex md:px-10 flex-col gap-6 text-lg text-white">
                                 {item.hours.map((items, index) => (
                                     <div key={index}>
                                         <p>Hour: {items.hour}</p>

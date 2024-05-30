@@ -9,7 +9,7 @@ import { FaLocationDot } from "react-icons/fa6";
 export const Footer = ()=>{
     return(
         <div className="w-full">
-            <div className="text-white  bg-green-400  px-12 py-12 flex flex-col md:flex-row justify-around items-center imd:tems-start gap-8">
+            <div className="text-green-400  bg-black  px-12 py-12 flex flex-col md:flex-row justify-around items-center imd:tems-start gap-8">
             <div className="flex flex-col justify-center items-center gap-5">
             <img src={logo} />
             <img src={startUp} />
