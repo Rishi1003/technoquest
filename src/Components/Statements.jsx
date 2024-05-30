@@ -190,7 +190,7 @@ const bootcampSchedule = {
         },
         {
           "day": 9,
-          "title": "Connecting Frontend to Backend",
+          "title": "Frontend - Backend communication",
           "hours": [
             {
               "hour": 1,
