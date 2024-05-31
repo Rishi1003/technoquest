@@ -67,12 +67,12 @@ const TermsAndConditions = () => {
 
       <div>
         <h2>12. Notices</h2>
-        <p>Please direct communications regarding disputes to <span className="font-semibold">contact@yuvamytr.com</span> .</p>
+        <p>Please direct communications regarding disputes to <span className="font-semibold text-blue-500">contact@yuvamytr.com</span> .</p>
       </div>
 
       <div>
         <h2>13. Miscellaneous Provisions</h2>
-        <p>These terms constitute the entire agreement between users and our company, superseding all prior communications. For further inquiries, reach us at <span className="font-semibold">contact@yuvamytr.com</span></p>
+        <p>These terms constitute the entire agreement between users and our company, superseding all prior communications. For further inquiries, reach us at <span className="font-semibold text-blue-500">contact@yuvamytr.com</span></p>
       </div>
 
       <div>
