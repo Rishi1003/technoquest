@@ -35,7 +35,7 @@ const Hero = () => {
                 <p className='text-base md:text-lg lg:text-xl xl:text-2xl text-green-400 font-bold p-2'>15-06-2024 -- 28-06-2024</p>
                 
                 <div className="text-center p-2">
-                    <p className='text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-400 line-through'>₹3499</p>
+                    <p className='text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-400 line-through'>₹3999</p>
                     <p className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-green-400 font-bold'>₹599</p>
                 </div>
 
