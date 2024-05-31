@@ -28,7 +28,7 @@ export const Footer = ()=>{
                         <p className="text-3xl text-center font-bold">Legal</p>
                         <div className=" text-center flex flex-col gap-2">
                             <a href="https://yuvamytr.com/disclaimer" className="text-sm hover:underline">Disclaimer</a>
-                            <a href="https://yuvamytr.com/terms_condition" className="text-sm hover:underline">Terms & Conditions </a>
+                            <a href="https://bootcamp.yuvamytr.com/terms" className="text-sm hover:underline">Terms & Conditions </a>
                             <a href="https://yuvamytr.com/privacy" className="text-sm hover:underline">Data Privacy</a>
                             <a href="https://yuvamytr.com/refund_" className="text-sm hover:underline">Refund</a>
                             <a href="https://yuvamytr.com/cookies" className="text-sm hover:underline">Cookies</a>
