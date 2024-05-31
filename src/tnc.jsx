@@ -3,8 +3,8 @@ import React from 'react';
 
 const TermsAndConditions = () => {
   return (
-    <div style={{ padding: '20px' }} className='flex flex-col gap-10'>
-      
+    <div style={{ padding: '20px' }} className='flex flex-col gap-7'>
+      <a href="https://bootcamp.yuvamytr.com/"><button className='py-3 px-6 bg-teal-300 rounded-lg w-fit'>back</button></a>
       <img src="https://2aae36024a43c56d1a61e713890fbc54.cdn.bubble.io/f1660663502916x592721221745075500/Frame%20292.svg" className="self-center w-72"/>
 
       <h1>Terms and Conditions</h1>
@@ -17,7 +17,7 @@ const TermsAndConditions = () => {
 
       <div>
         <h2>2. Scope of Services</h2>
-        <p>Our services encompass a learning platform offering hands-on experiences, career services, mentoring, and learning materials.</p>
+        <p>Our services encompass a learning platform offering hands-on experiences, career guidance, mentoring, and learning materials.</p>
       </div>
 
       <div>
@@ -67,12 +67,12 @@ const TermsAndConditions = () => {
 
       <div>
         <h2>12. Notices</h2>
-        <p>Please direct communications regarding disputes to contact@yuvamytr.com .</p>
+        <p>Please direct communications regarding disputes to <span className="font-semibold">contact@yuvamytr.com</span> .</p>
       </div>
 
       <div>
         <h2>13. Miscellaneous Provisions</h2>
-        <p>These terms constitute the entire agreement between users and our company, superseding all prior communications. For further inquiries, reach us at contact@yuvamytr.com</p>
+        <p>These terms constitute the entire agreement between users and our company, superseding all prior communications. For further inquiries, reach us at <span className="font-semibold">contact@yuvamytr.com</span></p>
       </div>
 
       <div>
