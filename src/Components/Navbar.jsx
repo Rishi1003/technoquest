@@ -51,7 +51,7 @@ const Navbar = () => {
 
     return (
         <div className="text-white w-full flex justify-between items-center mx-auto px-3 md:px-14 h-24 z-50">
-            <img src="https://2aae36024a43c56d1a61e713890fbc54.cdn.bubble.io/f1660663502916x592721221745075500/Frame%20292.svg" className="scale-110 text-3xl md:text-5xl font-bold text-white"/>
+            <a href="https://www.yuvamytr.com/" target="_blank"><img src="https://2aae36024a43c56d1a61e713890fbc54.cdn.bubble.io/f1660663502916x592721221745075500/Frame%20292.svg" className="scale-110 text-3xl md:text-5xl font-bold text-white"/></a>
             <ul className="hidden md:flex">
                 {nav.map((item) => {
                     const { id, name, href } = item
