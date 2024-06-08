@@ -82,7 +82,7 @@ const bootcampSchedule = {
         },
         {
           "day": 4,
-          "title": "NodeJS Basics and Express.js Basics (ToDo Backend)",
+          "title": "NodeJS Basics and Express.js Basics",
           "hours": [
             {
               "hour": 1,
