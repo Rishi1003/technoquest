@@ -43,14 +43,13 @@ const bootcampSchedule = {
             {
               "hour": 1,
               "topics": [
-                "Introduction to HTML and CSS",
-                "Activity: Building a Simple Static Web Page"
+                "How the internet works",
+                "Introduction to HTML and CSS"
               ]
             },
             {
               "hour": 2,
               "topics": [
-                "Introduction to HTML and CSS",
                 "Activity: Building a Simple Static Web Page"
               ]
             }
