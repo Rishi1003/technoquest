@@ -30,20 +30,33 @@ const Hero = () => {
                     <span className='glitch' data-text='Full Stack'>Full Stack</span>
                     <br/> Online BootCamp
                 </h1>
-                <p className='text-lg md:text-xl lg:text-4xl xl:text-4xl flex flex-wrap justify-center p-2 tracking-wide w-full font-bold'>No Prior Coding Knowledge required</p>
                 <p className='text-xs md:text-lg lg:text-xl xl:text-2xl flex flex-wrap justify-center p-2 tracking-wide w-full font-bold'>D I S C O V E R &nbsp;&nbsp;T H E &nbsp;&nbsp;E N G I N E E R&nbsp;&nbsp; I N&nbsp;&nbsp; Y O U</p>
                 <p className='text-sm md:text-base lg:text-lg xl:text-xl text-gray-400 p-2 md:max-w-[700px] lg:max-w-[900px]'>Launch Your Career in Tech: Master Fullstack Development with Our Intensive Bootcamp!</p>
                 <p className='text-base md:text-lg lg:text-xl xl:text-2xl text-green-400 font-bold p-2'>15-06-2024 -- 28-06-2024</p>
                 
                 <div className="text-center p-2">
-                    <p className='text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-400 line-through'>₹3999</p>
+                    <p className='text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-400 line-through'>₹3499</p>
                     <p className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-green-400 font-bold'>₹599</p>
                 </div>
 
-                <a href="https://yuvamytr.com/bootcamp"><button className='bg-green-400 text-black p-3 md:px-6 md:py-3 lg:px-8 lg:py-4 xl:px-10 xl:py-5 text-sm md:text-base lg:text-lg xl:text-xl font-bold m-2 rounded-br-3xl rounded-tl-3xl hover:bg-green-600'>Register now</button></a>
+                <button className=' bg-green-400 text-black p-3 md:px-6 md:py-3 lg:px-8 lg:py-4 xl:px-10 xl:py-5 text-sm md:text-base lg:text-lg xl:text-xl font-bold m-2 rounded-br-3xl rounded-tl-3xl hover:bg-green-600' onClick={()=>document.getElementById('my_modal_1').showModal()}>Register</button>
+                <dialog id="my_modal_1" className="modal">
+                    <div className="modal-box">
+                        <h3 className="font-bold text-lg">ⓘ Registrations are Closed !</h3>
+                        <p className="py-4">We apologize for missing you. However, please don't worry. Kindly fill out the form here, and we will ensure that you are contacted for the next bootcamp session, which will be conducted very soon. Rest assured, your information will be stored securely.</p>
+                        <div className="modal-action">
+                            <a href='https://forms.gle/vkJ2piCeqX6L1zYJ6' target="_blank" className='w-full'><button className='btn w-full bg-green-400 hover:bg-green-400 hover:scale-105 text-black' >Fill info</button></a>
+                            <form method="dialog">
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                            </form>
+                        </div>
+                    </div>
+                </dialog>
             </div>
         </div>
     );
 }
 
 export default Hero;
+
+
