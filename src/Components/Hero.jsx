@@ -41,7 +41,7 @@ const Hero = () => {
 
                 <button className=' bg-green-400 text-black p-3 md:px-6 md:py-3 lg:px-8 lg:py-4 xl:px-10 xl:py-5 text-sm md:text-base lg:text-lg xl:text-xl font-bold m-2 rounded-br-3xl rounded-tl-3xl hover:bg-green-600' onClick={()=>document.getElementById('my_modal_1').showModal()}>Register</button>
                 <dialog id="my_modal_1" className="modal">
-                    <div className="modal-box">
+                    <div className="modal-box bg-black">
                         <h3 className="font-bold text-lg">ⓘ Registrations are Closed !</h3>
                         <p className="py-4">We apologize for missing you. However, please don't worry. Kindly fill out the form here, and we will ensure that you are contacted for the next bootcamp session, which will be conducted very soon. Rest assured, your information will be stored securely.</p>
                         <div className="modal-action">
