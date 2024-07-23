@@ -38,21 +38,22 @@ const Hero = () => {
                     <p className='text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-400 line-through'>₹3499</p>
                     <p className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-green-400 font-bold'>₹599</p>
                 </div>
-
-                <button className=' bg-green-400 text-black p-3 md:px-6 md:py-3 lg:px-8 lg:py-4 xl:px-10 xl:py-5 text-sm md:text-base lg:text-lg xl:text-xl font-bold m-2 rounded-br-3xl rounded-tl-3xl hover:bg-green-600' onClick={()=>document.getElementById('my_modal_1').showModal()}>Register</button>
-                <dialog id="my_modal_1" className="modal">
-                    <div className="modal-box bg-black">
-                        <h3 className="font-bold text-lg">ⓘ Registrations are Closed !</h3>
-                        <p className="py-4">We apologize for missing you. However, please don't worry. Kindly fill out the form here, and we will ensure that you are contacted for the next bootcamp session, which will be conducted very soon. Rest assured, your information will be stored securely.</p>
-                        <div className="modal-action">
-                            <a href='https://forms.gle/vkJ2piCeqX6L1zYJ6' target="_blank" className='w-full'><button className='btn w-full bg-green-400 hover:bg-green-400 hover:scale-105 text-black' >Fill info</button></a>
-                            <form method="dialog">
-                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
-                            </form>
-                        </div>
-                    </div>
-                </dialog>
-            </div>
+                <a href='https://yuvamytr.com/bootcamp' target='blank' ><button className=' bg-green-400 text-black p-3 md:px-6 md:py-3 lg:px-8 lg:py-4 xl:px-10 xl:py-5 text-sm md:text-base lg:text-lg xl:text-xl font-bold m-2 rounded-br-3xl rounded-tl-3xl hover:bg-green-600' >Register</button></a>
+            
+                 {/* <button className=' bg-green-400 text-black p-3 md:px-6 md:py-3 lg:px-8 lg:py-4 xl:px-10 xl:py-5 text-sm md:text-base lg:text-lg xl:text-xl font-bold m-2 rounded-br-3xl rounded-tl-3xl hover:bg-green-600' onClick={()=>document.getElementById('my_modal_1').showModal()}>Register</button>
+                 <dialog id="my_modal_1" className="modal">
+                    <div className="modal-box">
+                     <h3 className="font-bold text-lg">ⓘ Registrations are Closed !</h3>
+                    <p className="py-4">We apologize for missing you. However, please don't worry. Kindly fill out the form here, and we will ensure that you are contacted for the next bootcamp session, which will be conducted very soon. Rest assured, your information will be stored securely.</p>
+                    <div className="modal-action">
+                         <a href='https://www.yuvamytr/bootcamp' ><button className='btn bg-green-400 text-black' >Fill info</button></a>
+                     <form method="dialog">
+                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                     </form>
+                 </div>
+                 </div>
+                 </dialog> */}
+  </div>
         </div>
     );
 }
