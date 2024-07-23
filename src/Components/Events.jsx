@@ -63,15 +63,15 @@ export default function Events() {
             </div> */}
           
           <div className={dayButton == 1 ? "text-white m-auto md:m-0  max-w-[80%] md:max-w-[40%] self-center" : "hidden"}>
-            <h1 className="mb-8 text-3xl md:text-5xl"><span className="text-green-400">Week 1: </span>Setting Up Programmer Mindset and Fundamentals</h1>
+            <h1 className="mb-8 text-3xl md:text-5xl"><span className="text-green-400">Week 1: </span>Setting Up a Programmer Mindset and Fundamentals</h1>
             
             <ul className="text-lg break-words">
                 <li className="mb-3"><strong className="text-green-400">Day 1:</strong> Introduction to programming mindset, web basics, and development setup.</li>
                 <li className="mb-3"><strong className="text-green-400">Day 2:</strong> HTML/CSS fundamentals, building static web pages.</li>
                 <li className="mb-3"><strong className="text-green-400">Day 3:</strong> JavaScript basics, problem-solving, and debugging.</li>
                 <li className="mb-3"><strong className="text-green-400">Day 4:</strong> Node.js basics, Express.js intro, building APIs.</li>
-                <li className="mb-3"><strong className="text-green-400">Day 5:</strong> MongoDB basics, database setup, CRUD operations.</li>
-                <li className="mb-3"><strong className="text-green-400">Day 6:</strong> Advanced MongoDB with Mongoose, data modeling, queries.</li>
+                <li className="mb-3"><strong className="text-green-400">Day 5:</strong> MongoDB basics, database setup and CRUD operations.</li>
+                <li className="mb-3"><strong className="text-green-400">Day 6:</strong> Advanced MongoDB with Mongoose, data modelling, queries.</li>
                 <li className="mb-3"><strong className="text-green-400">Day 7:</strong> React intro, basic components, state management.</li>
             </ul>
           </div>
