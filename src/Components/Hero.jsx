@@ -32,7 +32,7 @@ const Hero = () => {
                 </h1>
                 <p className='text-xs md:text-lg lg:text-xl xl:text-2xl flex flex-wrap justify-center p-2 tracking-wide w-full font-bold'>D I S C O V E R &nbsp;&nbsp;T H E &nbsp;&nbsp;E N G I N E E R&nbsp;&nbsp; I N&nbsp;&nbsp; Y O U</p>
                 <p className='text-sm md:text-base lg:text-lg xl:text-xl text-gray-400 p-2 md:max-w-[700px] lg:max-w-[900px]'>Launch Your Career in Tech: Master Fullstack Development with Our Intensive Bootcamp!</p>
-                <p className='text-base md:text-lg lg:text-xl xl:text-2xl text-green-400 font-bold p-2'>15-06-2024 -- 28-06-2024</p>
+                {/* <p className='text-base md:text-lg lg:text-xl xl:text-2xl text-green-400 font-bold p-2'>15-06-2024 -- 28-06-2024</p> */}
                 
                 <div className="text-center p-2">
                     <p className='text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-400 line-through'>₹3499</p>
