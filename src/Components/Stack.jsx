@@ -4,8 +4,8 @@ function Stack() {
     return (
         <>
             <div className="relative w-[95vw] plus-poster bg-cover py-20" id="tech-stack">
-                <h1 className="text-white text-center text-6xl mb-10">Tech Stack</h1>
-                <div className="flex justify-around items-center flex-wrap">
+                <h1 className="text-white text-center text-4xl md:text-6xl mb-10">Tech Stack</h1>
+                <div className="flex justify-around gap-10 items-center flex-wrap">
                     {/* MongoDB */}
                     <div className="flex flex-col items-center">
                         <img

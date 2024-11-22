@@ -20,7 +20,7 @@ export default function App() {
       <Stack />
       <>
         <div className="relative w-[95vw] plus-poster bg-cover py-20" id="devops-tools">
-          <h1 className="text-white text-center text-6xl mb-12">DevOps and Deployment Tools</h1>
+          <h1 className="text-white text-center text-4xl md:text-6xl mb-12">DevOps and Deployment Tools</h1>
           <div className="flex justify-around items-center flex-wrap gap-10 md:gap-20 lg:gap-32">
             {/* Docker */}
             <div className="flex flex-col items-center">
