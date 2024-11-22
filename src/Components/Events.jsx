@@ -52,7 +52,7 @@ export default function Events() {
           ref={sectionRef}
         >
           <h1 className="text-white text-center text-6xl md:hidden">Bootcamp Syllabus</h1>
-          <div className="flex max-w-[80%] overflow-x-auto gap-3 md:gap-8 md:flex-col self-center">
+          <div className="flex max-w-[80%] overflow-y-hidden overflow-x-auto gap-3 md:gap-8 md:flex-col self-center">
             {Array.from({ length: 5 }).map((_, index) => (
               <div
                 key={index}
